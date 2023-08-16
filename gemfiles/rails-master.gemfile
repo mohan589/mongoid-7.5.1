@@ -1,0 +1,10 @@
+source 'https://rubygems.org'
+
+gem 'actionpack', git: 'https://github.com/rails/rails'
+gem 'activemodel', git: 'https://github.com/rails/rails'
+
+gemspec path: '..'
+
+require_relative './standard'
+
+standard_dependencies
